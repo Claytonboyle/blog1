@@ -10,3 +10,64 @@
 		border:2px dotted bisque;
 		background-color:gray;
 }
+
+.contentcolumn {
+	position:relative;
+	float:left;
+	width:65%;
+	margin-left:6%;
+	padding-top:20px;
+}
+
+.topbox {
+	position:relative;
+	background-color:#2ecc71;
+	height:10%;
+	min-height:200px;
+	min-width:520px;
+
+}
+
+.toptext {
+	position:absolute;
+	bottom:5%;
+	left:5%;
+	color:white;
+	font-size:125%;
+	font-style:bold;
+}
+
+.navbar {
+	text-align:right;
+	background-color:blue;
+	display:inline-block;
+	border-top:10px solid green;
+	width:100%;
+	min-width:520px;
+	
+}
+
+.clean {
+
+	text-decoration:none;
+	padding-bottom:1px;
+	font-style:bold;
+	color:gray;
+}
+
+.hlist {
+	display:inline-block;
+	list-style-type:none;
+	padding-left:5%;
+	padding-right:5%;
+
+}
+
+.hlist li {
+
+	display:inline-block;
+	padding-left:15px;
+	padding-bottom:1px;
+	font-style:bold;
+	color:gray;
+}
