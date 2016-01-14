@@ -3,20 +3,26 @@
 .wholepage {
 		max-width:960px;
 		min-width:585px;
-		min-height:1600px;
-		height:100%;
+		padding-top:20px;
+		overflow:hidden;
 		padding-bottom:10px;
 		margin:auto;
 		border:2px dotted bisque;
 		background-color:gray;
+
 }
 
 .contentcolumn {
 	position:relative;
 	float:left;
 	width:65%;
+	height:1000px;
 	margin-left:6%;
-	padding-top:20px;
+
+	padding-bottom:20px;
+	min-width:520px;
+	background-color:beige;
+
 }
 
 .topbox {
@@ -24,8 +30,6 @@
 	background-color:#2ecc71;
 	height:10%;
 	min-height:200px;
-	min-width:520px;
-
 }
 
 .toptext {
@@ -44,30 +48,40 @@
 	border-top:10px solid green;
 	width:100%;
 	min-width:520px;
-	
 }
 
 .clean {
-
 	text-decoration:none;
 	padding-bottom:1px;
-	font-style:bold;
 	color:gray;
 }
 
 .hlist {
-	display:inline-block;
 	list-style-type:none;
 	padding-left:5%;
 	padding-right:5%;
-
 }
 
 .hlist li {
-
 	display:inline-block;
 	padding-left:15px;
 	padding-bottom:1px;
 	font-style:bold;
-	color:gray;
 }
+
+/*<!---------BODY CONTENT----------->*/
+
+.content {
+	width:95%;
+	margin:auto;
+	padding-top:2%;
+}
+
+p {
+	text-align:justify;
+}
+
+
+
+
+
