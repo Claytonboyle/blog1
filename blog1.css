@@ -135,24 +135,28 @@ th {
 }
 
 .userinput {
-	
+	width: 92%;
 	overflow:hidden;
 	position:relative;
-	left:25%;
+	
 	display:inline-block;
 	margin-top:6%;
 	margin-bottom:2%;
 	text-align:right;
+
+}
+
+.usertext{
+	width: 50%;
+	margin-bottom:2%;
+	
 }
 
 .placeholdertext{
-	text-align:gray;
 	color:gray;
 	opacity:.75;
-	margin-bottom:2%;
-	text-align:center;
 	font-style:italic;
-
+	text-align:center;
 }
 
 .warning {
@@ -161,4 +165,20 @@ th {
 	margin-bottom:0;
 }
 
+.comment-box{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:6%;
+	width:100%;
+}
 
+.comments {
+	width:81%;
+	height:300px;
+	text-align:auto;
+}
+
+.comment-field {
+	margin-left:auto;
+	margin-right:auto;
+}
