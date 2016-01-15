@@ -13,6 +13,9 @@
 }
 
 .contentcolumn {
+
+	overflow:hidden;
+
 	position:relative;
 	float:left;
 	width:60%;
@@ -35,6 +38,7 @@
 }
 
 .toptext {
+
 	position:absolute;
 	bottom:5%;
 	left:5%;
@@ -92,6 +96,7 @@ p {
 }
 
 .break {
+	/*display:inline-block;*/
 	width:98%;
 	border-bottom:1px solid gray;
 	margin-left:auto;
@@ -117,3 +122,43 @@ p {
 th {
 	background-color:#d9d9d9;
 }
+
+.textoverlay {
+	display:inline-block;
+	position:relative;
+	font-size:85%;
+	color:gray;
+	top:10px;
+	margin-left:4%;
+	background-color:beige;
+	padding:3px 3px;
+}
+
+.userinput {
+	
+	overflow:hidden;
+	position:relative;
+	left:25%;
+	display:inline-block;
+	margin-top:6%;
+	margin-bottom:2%;
+	text-align:right;
+}
+
+.placeholdertext{
+	text-align:gray;
+	color:gray;
+	opacity:.75;
+	margin-bottom:2%;
+	text-align:center;
+	font-style:italic;
+
+}
+
+.warning {
+	color:green;
+	opacity:.65;
+	margin-bottom:0;
+}
+
+
