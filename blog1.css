@@ -27,9 +27,11 @@
 
 .topbox {
 	position:relative;
-	background-color:#2ecc71;
+	background-color:#339933;
 	height:10%;
 	min-height:200px;
+/*	border-top-right-radius:14px;
+	border-top-left-radius:14px;*/
 }
 
 .toptext {
@@ -96,6 +98,22 @@ p {
 	margin-right:auto;
 }
 
+.mytable {
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	text-align:justify;
+	border-collapse: collapse;
+}
 
+.border {
+		border:1px solid #4d4d4d;
+}
 
+.center {
+	text-align:center;
+}
 
+th {
+	background-color:#d9d9d9;
+}
